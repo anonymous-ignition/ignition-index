@@ -1,0 +1,13 @@
+Architecture,Model,Params,Layers,beta_mean,CI_lo,CI_hi,w_layers,Schaeffer_flags
+Feedforward,gemma2-2b,2600M,26,203.964,86.797,235.2,3.8,74
+Feedforward,gemma2-9b,9200M,42,183.571,90.771,269.861,34132326192.0,60
+Feedforward,pythia-1.4b,1400M,24,175.646,76.421,253.911,2.5,36
+Feedforward,pythia-410m,410M,24,173.108,103.992,251.967,16.6,38
+Feedforward,pythia-6.9b,6900M,32,157.852,95.336,225.024,6.6,33
+Feedforward,gpt2-medium,355M,24,147.86,85.955,211.16,17.2,38
+Feedforward,gpt2-xl,1500M,48,135.324,50.318,192.793,31.4,33
+SSM (no attn),mamba-1.4b,1400M,48,111.49,28.975,203.528,837866.0,70
+Recurrent-depth,huginn-3.5b,3500M,32,111.033,48.515,185.18,85.0,80
+Feedforward,gpt2-small,124M,12,104.717,36.488,165.91,9.1,38
+SSM (no attn),mamba-2.8b,2800M,64,78.872,37.076,156.86,2065585533006.3,69
+Feedforward,pythia-70m,70M,6,60.485,32.014,101.504,8.7,42

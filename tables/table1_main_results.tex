@@ -1,0 +1,22 @@
+\begin{table}
+\caption{Main results: Ignition Index per model.}
+\label{tab:results_main}
+\begin{tabular}{lllrrrrrr}
+\toprule
+Architecture & Model & Params & Layers & beta_mean & CI_lo & CI_hi & w_layers & Schaeffer_flags \\
+\midrule
+Feedforward & gemma2-2b & 2600M & 26 & 203.964000 & 86.797000 & 235.200000 & 3.800000 & 74 \\
+Feedforward & gemma2-9b & 9200M & 42 & 183.571000 & 90.771000 & 269.861000 & 34132326192.000000 & 60 \\
+Feedforward & pythia-1.4b & 1400M & 24 & 175.646000 & 76.421000 & 253.911000 & 2.500000 & 36 \\
+Feedforward & pythia-410m & 410M & 24 & 173.108000 & 103.992000 & 251.967000 & 16.600000 & 38 \\
+Feedforward & pythia-6.9b & 6900M & 32 & 157.852000 & 95.336000 & 225.024000 & 6.600000 & 33 \\
+Feedforward & gpt2-medium & 355M & 24 & 147.860000 & 85.955000 & 211.160000 & 17.200000 & 38 \\
+Feedforward & gpt2-xl & 1500M & 48 & 135.324000 & 50.318000 & 192.793000 & 31.400000 & 33 \\
+SSM (no attn) & mamba-1.4b & 1400M & 48 & 111.490000 & 28.975000 & 203.528000 & 837866.000000 & 70 \\
+Recurrent-depth & huginn-3.5b & 3500M & 32 & 111.033000 & 48.515000 & 185.180000 & 85.000000 & 80 \\
+Feedforward & gpt2-small & 124M & 12 & 104.717000 & 36.488000 & 165.910000 & 9.100000 & 38 \\
+SSM (no attn) & mamba-2.8b & 2800M & 64 & 78.872000 & 37.076000 & 156.860000 & 2065585533006.300049 & 69 \\
+Feedforward & pythia-70m & 70M & 6 & 60.485000 & 32.014000 & 101.504000 & 8.700000 & 42 \\
+\bottomrule
+\end{tabular}
+\end{table}
